@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,19 +8,104 @@
 body {
     width: 100%;
     height: 100vh;
+    background-color: #4b8d66;
+    font-family: "Poppins", sans-serif;
+    color: white;
 }
-.container{}
-.container .login-form{}
-.container .login-form .login-logo{}
-.container .login-form .main-form{}
-.container .login-form .main-form .title{}
-.container .login-form .main-form .input-lavel{}
-.container .login-form .main-form .input-lavel .submit{}
-.container .login-form .main-form .forget-container{}
-.container .login-form .main-form .forget-container .forget-password{}
-.container .login-form .main-form .continue-with{}
-.container .login-form .main-form .account-link-container{}
-.container .login-form .main-form .account-link-container .google{}
-.container .login-form .main-form .account-link-container .github{}
-.container .login-form .main-form .account-link-container .facebook{}
-.container .login-form .main-form .have-account{}
+.container .login-form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    padding: 40px 60px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 24px;
+    display: grid;
+    gap: 20px;
+    width: 30%;
+    backdrop-filter: invert(60%);
+}
+.container .login-form figure{
+    text-align: center;
+}
+.container .login-form .login-logo{
+    font-size: 62px;
+}
+.container .login-form .main-form{
+    display: grid;
+    gap: 20px;
+}
+.container .login-form .main-form .title{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 300;
+}
+.login-form .main-form .input-label label{
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.container .login-form .main-form .input-label input{
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.container .login-form .main-form .input-label .submit{
+    background-color: #BD0C47;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+.container .login-form .main-form .forget-container{
+    font-size: 14px;
+    margin-top: -12px;
+}
+.container .login-form .main-form .continue-with{
+    text-align: center;
+    font-size: 14px;
+}
+.container .login-form .main-form .account-link-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 14px;
+}
+.container .login-form .main-form .account-link-container .google{
+    text-align: center;
+    background-color: #4b8d66;
+    padding: 9px 12px;
+    border-radius: 4px;
+    border: 0.5px solid white;
+}
+.container .login-form .main-form .account-link-container .github{
+    text-align: center;
+    background-color: #4b8d66;
+    padding: 9px 12px;
+    border-radius: 4px;
+    border: 0.5px solid white;
+}
+.container .login-form .main-form .account-link-container .facebook{
+    text-align: center;
+    background-color: #4b8d66;
+    padding: 9px 12px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+.container .login-form .main-form .have-account {
+    text-align: center;
+    font-size: 14px;
+}
+.container .login-form .main-form .have-account .register{
+    color: #1313f4;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.name{
+    text-align: center;
+}
