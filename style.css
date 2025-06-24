@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+.container{}
+.container .login-form{}
+.container .login-form .login-logo{}
+.container .login-form .main-form{}
+.container .login-form .main-form .title{}
+.container .login-form .main-form .input-lavel{}
+.container .login-form .main-form .input-lavel .submit{}
+.container .login-form .main-form .forget-container{}
+.container .login-form .main-form .forget-container .forget-password{}
+.container .login-form .main-form .continue-with{}
+.container .login-form .main-form .account-link-container{}
+.container .login-form .main-form .account-link-container .google{}
+.container .login-form .main-form .account-link-container .github{}
+.container .login-form .main-form .account-link-container .facebook{}
+.container .login-form .main-form .have-account{}
